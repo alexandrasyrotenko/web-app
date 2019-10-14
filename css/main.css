@@ -1,57 +1,110 @@
 body {
-	background-color:#F2F2F2;
+	background-color: white;
+	margin: 0;
+	padding: 0;
 }
-header{
-	background-color:#151515;
-	margin-top:0px;
-	padding-top:0px;
+
+
+.header{
 	
-	position:absolute;
-	height:6%;
-	width:100%;
+}
+.container_0{
+    width: 1450px;
+    height: 100px;
+    background: #f1f1f1;
+   /*   #f8f8f8 margin-left: 315px;*/
+    position: fixed;
+    font-size: 17pt;
+ 
 }
 
-.logo{
-	width:20%;
-	height:10%;
+.container_1 { /* vertikalny blok*/
+background-color: #252c32;	
+ width: 130px;
+ height: 100%;
+ position: fixed;
+ z-index: 45;
 }
-.balance{
-	background-color:white;
-	position:absolute;
-	top:33%;
-	left:14.5%;
-	height:40%;
-	width:39%;
-	border-radius:25px;
+.container_2{
+  background-color: #f1f1f1;
+  position: absolute;
+  left: 130px;
+  top: 96px;
+  width: 1712px;
+  height: 84px;
+  z-index: 28;
+}
+.container_3 {
+  background-color: #f8f8f8;
+  position: absolute;
+  left: 423px;
+  top: 0px;
+  width: 272px;
+  height: 84px;
+  z-index: 40;
+}
+.container_4 {
+  background-color: #ffffff;
+  position: absolute;
+  right: 272px;
+  top: 0px;
+  width: 420px;
+  height: 84px;
+  opacity: 100%;
+  z-index: 0;
+}
 
+.container_5 {
+  background-image: url(img/BG_3.jpg);
+  position: absolute;
+  left: 157px;
+  top: 205px;
+  width: 991px;
+  height: 970px;
+  z-index: 167;
 }
 
-.expence{
-	background-color:white;
-	position:absolute;
-	top:76%;
-	left:14.5%;
-	height:40%;
-	width:39%;
-	margin-bottom:1%;
-	border-radius:25px;
+
+
+
+.center-img {
+  display: block;
+  margin: 0 auto;
 }
 
-.transaction{
-	background-color:white;
-	position:absolute;
-	top:33%;
-	left:56%;
-	height:83%;
-	width:39%;
-	margin-bottom:1%;
-	border-radius:25px;
+.Projects {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1580px;
+  height: 1200px;
+  z-index: 414;
+}
+.Scrollbar {
+  background-image: url(img/Scrollbar.png);
+  opacity: 0.29;
+  position: absolute;
+  left: 1128px;
+  top: 313px;
+  width: 6px;
+  height: 453px;
+  z-index: 413;
+}
+.Project {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1580px;
+  height: 1200px;
+  z-index: 412;
+}
+.EDIT {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1580px;
+  height: 1200px;
+  z-index: 411;
 }
 
-.left{
-background-color:#1C1C1C;
-position:absolute;
-top:6.90%;
-height:109.5%;
-width:11%;
-}
+
